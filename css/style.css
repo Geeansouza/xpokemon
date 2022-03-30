@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+header{
+    width: 100vw;
+    height: 10vh;
+}
+#logoHeader{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#logo{
+    width: 10vw;
+    height: 10vh;
+}
+
+body{
+    background-image: url(/xpokemom/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* .itens{
+}
+#grass{
+    
+} */
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+}
+.itens{
+    width: 100vw;
+    height: 74vh;
+}
+footer{
+    width: 100vw;
+    height: 10vh;
+    
+}
+#grass{
+    width: 100vw;
+    height: 10vh;
+    
+}
+#pikachuRUN{
+   
+    width: 10vw;
+    height: 10vh;
+
+}
+#pikachu{
+    animation: voar 10s linear infinite;   
+    width: 10vw;
+    height: 12vh;
+}
+@keyframes voar {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(100vw);
+    }
+}
