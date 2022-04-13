@@ -21,6 +21,7 @@ header{
     align-self: center;
 }
 #logo{
+    min-width: 10vw;
     width: 14vw;
     height: 10vh;
 }
@@ -96,8 +97,70 @@ main {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
+.card-title{
+    color: white;
+}
 .card-subtitle{
     font-family: 'Acme', sans-serif;
     font-size: 12px;
     color: rgb(5, 24, 1);
+}
+.type-tag-steel {
+	color: #f4f4f4;
+}
+
+.type-tag-fire {
+	color: #FDDFDF;
+}
+
+.type-tag-grass {
+	color: #DEFDE0;
+}
+
+.type-tag-electric {
+	color: #FCF7DE;
+}
+
+.type-tag-water, .type-tag-ice {
+	color: #DEF3FD;
+}
+
+.type-tag-ground {
+	color: #f4e7da;
+}
+
+.type-tag-rock {
+	color: #d5d5d4;
+}
+
+.type-tag-fairy {
+	color: #fceaff;
+}
+
+.type-tag-poison {
+	color: #98d7a5;
+}
+
+.type-tag-bug {
+	color: #f8d5a3;
+}
+
+.type-tag-dragon {
+	color: #97b3e6;
+}
+
+.type-tag-psychic {
+	color: #eaeda1;
+}
+
+.type-tag-flying {
+	color: #F5F5F5;
+}
+
+.type-tag-fighting {
+	color: #E6E0D4;
+}
+
+.type-tag-normal {
+	color: #F5F5F5;
 }
