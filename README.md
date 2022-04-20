@@ -4,7 +4,7 @@
 link do site do hospedado no GitHub
 * https://geeansouza.github.io/xpokemon/
 <p>Figma</p>
-Figma
+Figma para o projeto
 * https://www.figma.com/file/MlbLl632CovVwG7qk9kLQQ/Untitled?node-id=0%3A1</p>
 
 ![](./img/PokemonProjeto.png)
